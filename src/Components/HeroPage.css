@@ -1,0 +1,58 @@
+/* =========================
+   HERO SCROLL CONTAINER
+========================= */
+
+.hero {
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+
+  /* Hide scrollbar */
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.hero::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+.hero-section {
+  min-height: 550px;
+
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  display: flex;
+  align-items: center;
+
+  padding-top: 100px;
+  padding-bottom: 200px;
+  box-sizing: border-box;
+
+  color: white;
+}
+
+
+
+
+.btn {
+  width: 240px;
+
+  padding: 14px 28px;
+
+  margin-top: 30px;
+
+  border: none;
+  border-radius: 18px;
+  background-color: rgb(121, 247, 121);
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  
+
+  
+}

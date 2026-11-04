@@ -1,0 +1,107 @@
+.fixed{
+   position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  z-index: 9999;
+}
+
+.header-section {
+  display: flex;
+  background-color: rgb(60, 178, 60); 
+  color: white;
+   align-items: center; 
+   justify-content: space-between;
+    
+    color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+     height: 65px;
+  
+    width: 100%; 
+}
+
+ /* log */
+
+ .logo-section{
+   display: flex;
+   align-items: center;
+   
+ }
+
+.isro-img {
+  width: 70px;
+  margin-left: 164px;
+  mix-blend-mode: multiply;
+
+}
+
+.header-name{
+  font-size: 22px;
+}
+
+.zhone-name{
+   font-size: 26px;
+}
+/* Input */
+
+.input-section{
+  display: flex;
+  align-items: center;
+  flex: 1;
+}
+
+.header-input{
+  margin-left: 280px;
+  width: 400px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 27px;
+  font-size: 17px;
+    
+}
+
+.send-btn{
+  margin-left: 10px;
+  width: 40px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  height: 27px;
+  cursor: pointer;
+  background-color: #3d7adb;
+    mix-blend-mode: multiply;
+    color:white;
+}
+
+.btn-logo{
+  color: white;
+}
+
+/* Carts-items */
+.cart-items{
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+  
+}
+
+.orders-page{
+ font-size: 20px;
+  cursor: pointer;
+}
+
+.cart-img {
+  width: 65px;
+  mix-blend-mode: multiply;
+  margin-left: 20px;
+   cursor: pointer;
+}
+.cart-page{
+  font-size: 21px;
+   margin-right: 136px;
+   cursor: pointer;
+}
+
+
